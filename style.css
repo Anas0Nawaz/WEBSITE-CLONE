@@ -1,0 +1,25 @@
+ul{
+    color: whitesmoke;
+    list-style-type: none;
+}
+#child1{
+    display: inline-block;
+    margin-left: 400px;
+    color: #da1717;
+    text-decoration: overline;
+}
+#child2{
+    display: inline-block;
+    margin-left: 350px;
+}
+.children{
+    display: inline-block;
+    margin-left: 100px;
+}
+a{
+    color: white;
+    text-decoration-color:white ;
+}
+.div2{
+    margin-top: 50px;
+}
