@@ -1,25 +1,81 @@
-ul{
+@font-face {
+    font-family: nunito;
+    src: url(fonts/static/Nunito-Regular.ttf);
+}
+
+
+
+
+h1,h2,p,a,ul,li{
     color: whitesmoke;
-    list-style-type: none;
 }
-#child1{
-    display: inline-block;
-    margin-left: 400px;
-    color: #da1717;
-    text-decoration: overline;
+
+div.div1 {
+
+
+
+    ul {
+
+        list-style-type: none;
+    }
+
+    .child {
+        display: inline;
+        margin-left: 80px;
+    }
+
+    a {
+
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: cornsilk;
+    }
+
+    .button1 {
+
+        color: whitesmoke;
+        background: black;
+        width: 130px;
+        height: 40px;
+        border-radius: 40px;
+    }
+
+    .button2 {
+
+        color: whitesmoke;
+        background: red;
+        width: 130px;
+        height: 40px;
+        border-radius: 40px;         /* to ensure that the borders are curved/half rounded */
+      
+    }
 }
-#child2{
-    display: inline-block;
-    margin-left: 350px;
+
+div.div3{
+    h1{
+        text-align: center;
+        font-family: nunito;
+    }
 }
-.children{
-    display: inline-block;
-    margin-left: 100px;
-}
-a{
-    color: white;
-    text-decoration-color:white ;
-}
-.div2{
-    margin-top: 50px;
+
+div.box1{
+    display: inline;
+   width: 250px; 
+    height: 200px;
+    margin-left: 270px;
+
+
+    .img1{
+        margin-right: 20px;
+    }
+
+    .img2{
+        margin-left: 10px;
+    }
+
+    .img3{
+        margin-left: 20px;
+    }
 }
