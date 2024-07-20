@@ -68,14 +68,50 @@ div.box1{
 
 
     .img1{
-        margin-right: 20px;
+        margin-right: 40px;
     }
 
     .img2{
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .img3{
-        margin-left: 20px;
+        margin-left: 50px;
+    }
+
+   
+}
+
+div.box2{
+
+    margin-left: 260px;
+
+
+    .button1{
+        margin-left: 60px;
+        width: 120px;
+        height: 50px;
+        font-size: medium;
+        padding: 10px 3px 10px 3px;
+        border-radius: 12px ;
+        background: red;
+    }
+    .button2{
+        margin-left: 142px;
+        width: 120px;
+        height: 50px;
+        font-size: medium;
+        padding: 10px 3px 10px 3px;
+        border-radius: 12px ;
+        background: red;
+    }
+    .button3{
+        margin-left: 130px;
+        width: 120px;
+        height: 50px;
+        font-size: medium;
+        padding: 10px 3px 10px 3px;
+        border-radius: 12px ;
+        background: red;
     }
 }
