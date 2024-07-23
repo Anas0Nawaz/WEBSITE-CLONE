@@ -1,5 +1,6 @@
 body {
     margin: 0%;
+    background: black;
 }
 
 @font-face {
@@ -10,6 +11,9 @@ body {
 :root {
     --textcolor1: white;
     --bgcolor1: red;
+    --bgcolor2: black;
+    --borderradius: 20px;
+    --btnpadding: 12px;
 
 }
 
@@ -46,15 +50,19 @@ body {
     border-radius: 50%;          didn't worked with this
 } */
     .btn {
-        border-radius: 20px;
+        border-radius: var(--borderradius);
         /*assigned a class and then applied border radius */
-        padding: 12px;
+        padding: var(--btnpadding);
         background-color: var(--bgcolor1);
         color: var(--textcolor1);
+        border-color: white;
     }
 }
 
 .main-div-2 {
+
+    padding-bottom: 100px;
+
     color: var(--textcolor1);
     text-align: center;
     font-family: butler;
@@ -87,11 +95,66 @@ body {
         height: 120px;
     }
 
-    .child-div{
+    .child-div>ul {
         display: flex;
         justify-content: center;
         margin-top: 15px;
-        
+        list-style-type: none;
+        gap: 200px;
     }
 
+    .child-div button {
+        border-radius: var(--borderradius);
+        background: var(--bgcolor2);
+        color: var(--textcolor1);
+        padding: var(--btnpadding);
+        border-color: white;
+    }
+}
+
+.main-div-3 {
+    background: rgba(255, 255, 255, 0.06);
+    padding-top: 50px;
+    text-align: center;
+    color: var(--textcolor1);
+    font-family: butler;
+    h1 {
+        
+          
+        font-weight: 100;
+        font-size: 30px;
+
+        span {
+            font-weight: 900;
+            font-size: 48px;
+        }
+
+    }
+
+    .child-of-div-3{
+        
+        .child{
+            display: flex;
+            display: inline-block;
+            width: 43%;
+            height: 250px;
+            background: white;
+            border: 2px solid green;
+            margin: 50px 30px 50px 30px;
+        }
+        /* div{
+
+           
+            display: flex;
+            display: inline-block;
+            width: 43%;
+            height: 250px;
+            background: white;
+            border: 2px solid green;
+            margin: 50px 30px 50px 30px;
+      
+        } */
+    }
+
+  
 }
