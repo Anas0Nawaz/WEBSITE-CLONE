@@ -10,10 +10,13 @@ body {
 
 :root {
     --textcolor1: white;
+    --textcolor2: red;
     --bgcolor1: red;
     --bgcolor2: black;
     --borderradius: 20px;
     --btnpadding: 12px;
+    --bordercolor: white;
+
 
 }
 
@@ -55,7 +58,7 @@ body {
         padding: var(--btnpadding);
         background-color: var(--bgcolor1);
         color: var(--textcolor1);
-        border-color: white;
+        border-color: var(--bordercolor);
     }
 }
 
@@ -108,7 +111,7 @@ body {
         background: var(--bgcolor2);
         color: var(--textcolor1);
         padding: var(--btnpadding);
-        border-color: white;
+        border-color: var(--bordercolor);
     }
 }
 
@@ -132,28 +135,54 @@ body {
     }
 
     .child-of-div-3{
-        
+        display: flex;
+        flex-wrap: wrap;
+       
         .child{
-            display: flex;
-            display: inline-block;
-            width: 43%;
-            height: 250px;
-            background: white;
-            border: 2px solid green;
-            margin: 50px 30px 50px 30px;
-        }
-        /* div{
-
            
-            display: flex;
-            display: inline-block;
             width: 43%;
             height: 250px;
-            background: white;
-            border: 2px solid green;
             margin: 50px 30px 50px 30px;
-      
-        } */
+
+        }
+        .child h3{
+            
+            color: var(--textcolor2);
+            letter-spacing: 10px;
+            font-weight: 100;
+            margin-bottom: 0px;
+            
+        }
+
+        .child h2{
+
+            margin-top: 0px;
+            
+          .span-h2{
+            font-weight: lighter;
+          }
+
+
+        }
+
+        .child button{
+            color: var(--textcolor1);
+            background: var(--bgcolor2);
+            border-color: var(--bordercolor);
+            border-radius: var(--borderradius);
+            padding: var(--btnpadding);
+        }
+
+        .child .branch-imgs{
+            width: 100%;
+            height: 250px;
+        }
+
+        
+
+ 
+
+  
     }
 
   
