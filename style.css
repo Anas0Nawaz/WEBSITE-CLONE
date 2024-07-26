@@ -3,6 +3,7 @@ body {
     background: black;
 }
 
+
 @font-face {
     font-family: butler;
     src: url(fonts/Butler_Webfont/Butler-Light.woff);
@@ -121,9 +122,13 @@ body {
     text-align: center;
     color: var(--textcolor1);
     font-family: butler;
+    padding-left: 120px;
+    padding-right: 120px;
+
+
     h1 {
-        
-          
+
+
         font-weight: 100;
         font-size: 30px;
 
@@ -134,38 +139,39 @@ body {
 
     }
 
-    .child-of-div-3{
+    .child-of-div-3 {
         display: flex;
         flex-wrap: wrap;
-       
-        .child{
-           
+
+        .child {
+
             width: 43%;
             height: 250px;
             margin: 50px 30px 50px 30px;
 
         }
-        .child h3{
-            
+
+        .child h3 {
+
             color: var(--textcolor2);
             letter-spacing: 10px;
             font-weight: 100;
             margin-bottom: 0px;
-            
+
         }
 
-        .child h2{
+        .child h2 {
 
             margin-top: 0px;
-            
-          .span-h2{
-            font-weight: lighter;
-          }
+
+            .span-h2 {
+                font-weight: lighter;
+            }
 
 
         }
 
-        .child button{
+        .child button {
             color: var(--textcolor1);
             background: var(--bgcolor2);
             border-color: var(--bordercolor);
@@ -173,17 +179,66 @@ body {
             padding: var(--btnpadding);
         }
 
-        .child .branch-imgs{
-            width: 100%;
+        .child .branch-imgs {
+            width: 80%;
             height: 250px;
         }
 
-        
-
- 
-
-  
     }
 
-  
+
+
 }
+
+.main-div-4 {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(255, 255, 255, 0.06);
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+    color: var(--textcolor1);
+    font-family: butler;
+    h1 {
+
+        
+        font-weight: 100;
+        font-size: 40px;
+
+        span {
+            font-weight: 900;
+            font-size: 60px;
+        }
+    }
+
+    h3 {
+
+        color: var(--textcolor2);
+        letter-spacing: 10px;
+        font-weight: 100;
+        margin-bottom: 0px;
+
+    }
+
+    button{
+        color: var(--textcolor1);
+        background: var(--bgcolor2);
+        border-color: var(--bordercolor);
+        border-radius: var(--borderradius);
+        padding: var(--btnpadding);
+    }
+
+
+.child-of-div-4 {
+    display: flex;
+    gap: 20px;
+   
+}
+.child-of-div-4-1 {
+    display: flex;
+    gap: 20px;
+   
+}
+    
+}
+
