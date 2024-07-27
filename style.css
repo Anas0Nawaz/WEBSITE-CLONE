@@ -325,25 +325,51 @@ body {
 
     .child-of-div-6{
         display: flex;
-        gap: 20px;
+        gap: 40px;
        
         div{
             width: 325px;
             height: 210px;
             background: white;
+            border-radius: 5px;
         }
     }
 
     .child2-of-div-6{
         display: flex;
-        gap: 20px;
+        gap: 40px;
 
-        div{
-        
+        div.child{
+            margin-top: 40px;
             width: 325px;
             height: 210px;
             background: white;
+            border-radius: 5px;
         }
     }
+
+}
+
+.main-div-7{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    padding-top: 50px; 
+    padding-bottom: 50px;  
+    text-align: center;
+    color: black;
+    font-family: butler;
+    justify-content: center;
+ 
+    gap: 20px;
+
+
+}
+
+.main-div-7 img{
+   
+    width: 250px;
+    height: 250px;
 
 }
