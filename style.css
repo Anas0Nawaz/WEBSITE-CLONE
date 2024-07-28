@@ -194,9 +194,8 @@ body {
 
     margin-top: 50px;
     margin-bottom: 0px;
-    padding-bottom: 0px;
-    /* padding-top: 80px; */
-    /* padding-bottom: 80px; */
+    padding-top: 80px;
+    padding-bottom: 40px;
     text-align: center;
     color: var(--textcolor1);
     font-family: butler;
@@ -214,7 +213,7 @@ body {
 .main-div-4 {
     display: flex;
     flex-wrap: wrap;
-    background: black;
+    background-color: black;
     padding-top: 50px;
     justify-content: center;
     text-align: center;
@@ -282,7 +281,7 @@ body {
 .main-div-5{
     display: flex;
     flex-wrap: wrap;
-    background: #0F0F0F;
+    background-color: #0F0F0F;
     padding-top: 50px; 
     padding-bottom: 50px;  
     text-align: center;
@@ -361,7 +360,6 @@ body {
     color: black;
     font-family: butler;
     justify-content: center;
- 
     gap: 20px;
 
 
@@ -372,4 +370,62 @@ body {
     width: 250px;
     height: 250px;
 
+}
+
+.main-div-8{
+    display: flex;  
+    background-color: #0F0F0F;  
+    color: var(--textcolor1);
+    font-family: butler;
+    padding-top: 80px;
+    padding-bottom: 100px;
+
+    .child-of-div-8{
+
+        margin-left: 100px;
+
+    }
+
+    .child-a a{
+
+        color: var(--textcolor1);
+        text-decoration: none;
+    }
+
+    .child2-of-div-8{
+        margin-left: 80px;
+    }
+    .child2-of-div-8 li{
+        list-style-type: none;
+        margin-top: 15px;
+    }
+    .child2-of-div-8 a{
+
+        color: var(--textcolor1);
+        text-decoration: none;
+    }
+
+    .child3-of-div-8{
+        
+        margin-left: 100px;
+    }
+
+}
+
+.end{
+
+    background-color: #0F0F0F;  
+    color: var(--textcolor1);
+    font-family: butler;
+    padding: 40px;
+
+    .child-of-end{
+    
+        float: left;
+    }
+
+    .child2-of-end{
+    
+        float: right;
+}
 }
